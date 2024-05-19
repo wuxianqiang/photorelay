@@ -1,0 +1,5 @@
+import{g as u,j as a}from"./index-C0fHIiRg.js";var f={exports:{}};/*!
+	Copyright (c) 2018 Jed Watson.
+	Licensed under the MIT License (MIT), see
+	http://jedwatson.github.io/classnames
+*/(function(o){(function(){var c={}.hasOwnProperty;function n(){for(var t="",r=0;r<arguments.length;r++){var s=arguments[r];s&&(t=i(t,e(s)))}return t}function e(t){if(typeof t=="string"||typeof t=="number")return t;if(typeof t!="object")return"";if(Array.isArray(t))return n.apply(null,t);if(t.toString!==Object.prototype.toString&&!t.toString.toString().includes("[native code]"))return t.toString();var r="";for(var s in t)c.call(t,s)&&t[s]&&(r=i(r,s));return r}function i(t,r){return r?t?t+" "+r:t+r:t}o.exports?(n.default=n,o.exports=n):window.classNames=n})()})(f);var p=f.exports;const l=u(p);function x({className:o,type:c,fill:n,size:e,onClick:i}){return a.jsx("svg",{className:l("icon",o),style:e?{fill:n,width:e,height:e}:{fill:n},onClick:i,children:a.jsx("use",{xlinkHref:`#svg__icon__${c}`})})}export{x as I,l as c};
